@@ -81,7 +81,6 @@ func main() {
 		fmt.Println(myMap3[key].y)
 		// fmt.Println(myMap3[value.y])
 	}
-
 	fmt.Println("---------------------------------------------------------------------")
 	for key, value := range myMap3 {
 		// fmt.Println(myMap3[key].x)
@@ -89,9 +88,7 @@ func main() {
 		fmt.Println(key)
 		fmt.Println(value)
 	}
-
 	fmt.Println("---------------------------------------------------------------------")
 	person := Person{"james", 20}
 	person.greeting()
-
 }
